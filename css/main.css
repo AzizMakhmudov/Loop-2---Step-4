@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  background-color: #55557e;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.select-box {
+  padding: 200px 400px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.select--img__box {
+  width: 77px;
+  height: 65px;
+  background-color: #3d3e52;
+  display: flex;
+  align-items: center;
+  padding: 0px 25px;
+  border-right: 2px solid #777898;
+}
+
+.select--img__box:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  transition: 2s;
+}
+
+.second-box__select {
+  border: none;
+}
+
+.cafe-box {
+  background-color: #252525;
+  width: 70px;
+  height: 50px;
+  transform: scale(1.5);
+  padding: 12.5px 23px;
+}
+
+.img {
+  opacity: 0.7;
+}
+
+.img:hover {
+  opacity: 1;
+}
+
+.food-location__box {
+  width: 400px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 3px;
+  margin: -150px auto;
+}
+
+.food-jpg {
+  object-fit: cover;
+  position: absolute;
+}
+
+.food-heading {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  margin-top: 100px;
+  padding-left: 30px;
+}
+
+.location-madrid {
+  transform: translateY(140px);
+}
+
+.location-img {
+  position: absolute;
+  margin-left: -6px;
+  padding-left: 30px;
+}
+
+.Madrid {
+  position: absolute;
+  color: white;
+  margin-left: 40px;
+  margin-top: 4px;
+  padding-left: 30px;
+}
+
+.menu-pizza {
+  position: absolute;
+  margin-top: 225px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 20px;
+  width: 400px;
+  padding-left: 30px;
+  gap: 280px;
+}
+
+.num {
+  opacity: 0.5;
+  font-weight: 600;
+}
+
+.menu-title {
+  opacity: 0.5;
+}
+
+.menu-sushi {
+  position: absolute;
+  margin-top: 300px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 20px;
+  width: 400px;
+  padding-left: 30px;
+  gap: 285px;
+}
+
+.menu-pizza:hover span {
+  opacity: 1;
+}
+
+.menu-sushi:hover span {
+  opacity: 1;
+}
+
+.menu-gourmet:hover span {
+  opacity: 1;
+}
+
+.menu-burger:hover span {
+  opacity: 1;
+}
+
+.menu-pizza,
+.menu-sushi,
+.menu-gourmet,
+.menu-burger:hover {
+  cursor: pointer;
+}
+
+.menu-gourmet {
+  position: absolute;
+  margin-top: 370px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 20px;
+  width: 400px;
+  padding-left: 30px;
+  gap: 255px;
+}
+
+.menu-burger {
+  position: absolute;
+  margin-top: 450px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  width: 400px;
+  padding-left: 30px;
+  gap: 270px;
+}
